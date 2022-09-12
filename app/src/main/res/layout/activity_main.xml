@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/listview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/img_1">
+
+
+    <ListView
+        android:id="@+id/listview_monhoc"
+        android:layout_width="wrap_content"
+        android:layout_height="365dp"
+        android:background="#2196F3"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <EditText
+        android:id="@+id/txtnhap"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="500dp"
+        android:ems="10"
+        android:background="#fff"
+        android:textColor="#FF5722"
+        android:inputType="textPersonName"
+        android:hint="nhập môn học"/>
+
+    <Button
+        android:id="@+id/button_them"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="550dp"
+
+        android:layout_marginBottom="10dp"
+        android:text="Thêm" />
+    <Button
+        android:id="@+id/button_sua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+
+        android:layout_marginBottom="20dp"
+        android:text="SỬA" />
+    <Button
+        android:id="@+id/button_xoa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="650dp"
+
+        android:layout_marginBottom="20dp"
+        android:text="XÓA" />
+</RelativeLayout>
